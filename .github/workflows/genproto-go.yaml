@@ -1,0 +1,11 @@
+name: genproto-go
+on:
+  - push
+jobs:
+  genproto-go:
+    runs-on: ubuntu-latest
+    name: Name
+    steps:
+      - name: Name
+        id: genproto-go
+        uses: complex64/github-actions-genproto-go
