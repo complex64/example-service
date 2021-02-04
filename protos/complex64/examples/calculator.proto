@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package complex64.examples;
+
+service CalculatorService {
+  rpc Add(AddRequest) returns (AddResponse) {}
+}
+
+message AddRequest {
+  int32 a = 1;
+  int32 b = 2;
+}
+
+message AddResponse {
+  int64 sum = 1;
+}
