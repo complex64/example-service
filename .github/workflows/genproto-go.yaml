@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Name
         id: genproto-go
-        uses: complex64/github-actions-genproto-go
+        uses: complex64/github-actions-genproto-go@main
